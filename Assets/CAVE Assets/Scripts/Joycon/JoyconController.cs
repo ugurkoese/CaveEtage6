@@ -11,8 +11,6 @@ namespace CaveAsset
         {
             private JoyconManager manager;
             private List<JoyconAPI.Joycon> joyconList;
-            private JoyconAPI.Joycon[] joycons;
-            private int joycount;   // Numbers of availible Joycons
 
             ///<summary>
             ///Instantiates the joycons 
@@ -21,12 +19,6 @@ namespace CaveAsset
             {
                 manager = JoyconManager.Instance;
                 joyconList = manager.joycons;
-                joycount = joyconList.Count;
-                joycons = new JoyconAPI.Joycon[joycount];
-                for(int i = 0; i < joycount; i++)
-                {
-                    joycons[i] = joyconList[i];
-                }
             }
 
             ///<summary>
@@ -37,7 +29,7 @@ namespace CaveAsset
             ///</returns>
             public int GetNumberOfJoycons()
             {
-                return joycount;
+                return joyconList.Count;
             }
 
             ///<summary>
@@ -48,10 +40,12 @@ namespace CaveAsset
             ///</returns>
             public JoyconAPI.Joycon GetLeftJoycon()
             {
-                if (joycons[0].isLeft)
-                    return joycons[0];
-                else
-                    return joycons[1];
+                foreach (JoyconAPI.Joycon joy in joyconList)
+                {
+                    if (joy.isLeft)
+                        return joy;
+                }
+                return null;
             }
 
             ///<summary>
@@ -62,10 +56,12 @@ namespace CaveAsset
             ///</returns>
             public JoyconAPI.Joycon GetRightJoycon()
             {
-                if (joycons[1].isLeft)
-                    return joycons[0];
-                else
-                    return joycons[1];
+                foreach (JoyconAPI.Joycon joy in joyconList)
+                {
+                    if (!joy.isLeft)
+                        return joy;
+                }
+                return null;
             }
 
             ///<summary>
@@ -76,7 +72,16 @@ namespace CaveAsset
             ///</returns>
             public JoyconAPI.Joycon GetJoycon(int i)
             {
-                return joycons[i];
+                return joyconList[i];
+            }
+
+            /// <summary>
+            /// Returns all joycons currently connected
+            /// </summary>
+            /// <returns>All joycons</returns>
+            public List<JoyconAPI.Joycon> GetJoycons()
+            {
+                return joyconList;
             }
         }
     }

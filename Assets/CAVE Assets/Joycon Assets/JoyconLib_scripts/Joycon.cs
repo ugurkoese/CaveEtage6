@@ -273,12 +273,22 @@ namespace JoyconAPI
         {
             return gyr_g;
         }
+
+        public Vector3 GetGyroUnity()
+        {
+            return new Vector3(gyr_g.z, gyr_g.y, -gyr_g.x);
+        }
         ///<summary>
         ///Measures the acceleration of the joycon
         ///</summary>
         public Vector3 GetAccel()
         {
             return acc_g;
+        }
+
+        public Vector3 GetAccelUnity()
+        {
+            return new Vector3(acc_g.z, acc_g.y, -acc_g.x);
         }
 
         ///<summary>
