@@ -26,6 +26,7 @@ public class Enemy : MonoBehaviour
     private Vector3 startRotation;
     private Vector3 targetRotation;
     private Vector3 targetStandUp;
+    private AudioSource audioSource;
 
     public void Start()
     {
@@ -34,6 +35,8 @@ public class Enemy : MonoBehaviour
         targetRotation = new Vector3(transform.localEulerAngles.x, transform.localEulerAngles.y + 180, transform.localEulerAngles.z);
         startPosition = transform.position;
         readyToHit = true;
+        audioSource = GetComponent<AudioSource>();
+        audioSource.volume = 0.2f;
     }
 
 
@@ -41,6 +44,7 @@ public class Enemy : MonoBehaviour
     {
         if (other.name == "Tennisball(Clone)" && readyToHit)
         {
+            audioSource.Play();
             readyToHit = false;
             transform.Find("Front").GetComponent<Renderer>().material.SetTexture("_MainTex", hitTexture);
         }

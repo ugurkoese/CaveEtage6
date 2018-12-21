@@ -25,10 +25,6 @@ public class ShootController : MonoBehaviour
     private InputController inputController;
     private Joycon joyLeft;
     private Joycon joyRight;
-    //orientation of controller
-    private Vector3 gyro;
-    private Vector3 accel;
-    private Vector3 orientation;
     //Crosshair
     private GameObject leftCrosshair;
     private GameObject rightCrosshair;
@@ -38,9 +34,6 @@ public class ShootController : MonoBehaviour
     public void Start()
     {
         ballQueue = new Queue<GameObject>();
-        gyro = new Vector3(0, 0, 0);
-        accel = new Vector3(0, 0, 0);
-        orientation = transform.forward;
 
         //INPUT INIT
         //JOYCONS

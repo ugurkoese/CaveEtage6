@@ -2685,6 +2685,7 @@ GameObject:
   - component: {fileID: 57316018}
   - component: {fileID: 57316020}
   - component: {fileID: 57316019}
+  - component: {fileID: 57316021}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_21
   m_TagString: Untagged
@@ -2754,6 +2755,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 57316017}
   m_Mesh: {fileID: 4300804, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &57316021
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57316017}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.0000011920929, y: -0.00000023841858, z: -0.00000023841858}
 --- !u!1 &59797831
 GameObject:
   m_ObjectHideFlags: 0
@@ -2798,6 +2812,7 @@ GameObject:
   - component: {fileID: 59925852}
   - component: {fileID: 59925854}
   - component: {fileID: 59925853}
+  - component: {fileID: 59925855}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_18
   m_TagString: Untagged
@@ -2867,6 +2882,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 59925851}
   m_Mesh: {fileID: 4300794, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &59925855
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59925851}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.00000071525574, y: -0.00000023841858, z: -0.00000047683716}
 --- !u!1 &64090024
 GameObject:
   m_ObjectHideFlags: 0
@@ -3253,6 +3281,7 @@ GameObject:
   - component: {fileID: 68247729}
   - component: {fileID: 68247731}
   - component: {fileID: 68247730}
+  - component: {fileID: 68247732}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_37
   m_TagString: Untagged
@@ -3322,6 +3351,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 68247728}
   m_Mesh: {fileID: 4300868, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &68247732
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68247728}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.0000009536743, y: 0, z: 0.00000023841858}
 --- !u!1 &69931726
 GameObject:
   m_ObjectHideFlags: 0
@@ -4874,6 +4916,7 @@ GameObject:
   - component: {fileID: 98822924}
   - component: {fileID: 98822926}
   - component: {fileID: 98822925}
+  - component: {fileID: 98822927}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_27
   m_TagString: Untagged
@@ -4943,6 +4986,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 98822923}
   m_Mesh: {fileID: 4300830, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &98822927
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98822923}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0.000000029802322}
 --- !u!1 &99530366
 GameObject:
   m_ObjectHideFlags: 0
@@ -5198,6 +5254,7 @@ GameObject:
   - component: {fileID: 103653829}
   - component: {fileID: 103653831}
   - component: {fileID: 103653830}
+  - component: {fileID: 103653832}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_29
   m_TagString: Untagged
@@ -5267,6 +5324,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 103653828}
   m_Mesh: {fileID: 4300836, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &103653832
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103653828}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0.00000023841858}
 --- !u!1 &104604905
 GameObject:
   m_ObjectHideFlags: 0
@@ -6249,6 +6319,7 @@ GameObject:
   - component: {fileID: 132129004}
   - component: {fileID: 132129006}
   - component: {fileID: 132129005}
+  - component: {fileID: 132129007}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_13
   m_TagString: Untagged
@@ -6318,6 +6389,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 132129003}
   m_Mesh: {fileID: 4300774, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &132129007
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132129003}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.00000047683716, y: -0.00000023841858, z: -0.00000047683716}
 --- !u!1 &132403630
 GameObject:
   m_ObjectHideFlags: 0
@@ -12052,6 +12136,7 @@ GameObject:
   - component: {fileID: 232101399}
   - component: {fileID: 232101401}
   - component: {fileID: 232101400}
+  - component: {fileID: 232101402}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_42
   m_TagString: Untagged
@@ -12121,6 +12206,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 232101398}
   m_Mesh: {fileID: 4300888, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &232101402
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232101398}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.00000071525574, y: 0, z: 0.00000023841858}
 --- !u!1 &234419427
 GameObject:
   m_ObjectHideFlags: 0
@@ -14759,6 +14857,102 @@ MonoBehaviour:
   hitTexture: {fileID: 2800000, guid: b3a5316397b5a254685adfbf55fafdeb, type: 3}
   speed: 3
   reactivationInterval: 21.2
+--- !u!82 &281926471
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 281926466}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2a80bbdf8ee1b854b812f741c357e99a, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &283132646
 GameObject:
   m_ObjectHideFlags: 0
@@ -16189,6 +16383,7 @@ GameObject:
   - component: {fileID: 302744781}
   - component: {fileID: 302744783}
   - component: {fileID: 302744782}
+  - component: {fileID: 302744784}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_12
   m_TagString: Untagged
@@ -16258,6 +16453,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 302744780}
   m_Mesh: {fileID: 4300768, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &302744784
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302744780}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.00000047683716, y: 0, z: -0.00000023841858}
 --- !u!1 &304434439
 GameObject:
   m_ObjectHideFlags: 0
@@ -17165,6 +17373,102 @@ MonoBehaviour:
   hitTexture: {fileID: 2800000, guid: b3a5316397b5a254685adfbf55fafdeb, type: 3}
   speed: 3
   reactivationInterval: 21.2
+--- !u!82 &324977450
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324977445}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2a80bbdf8ee1b854b812f741c357e99a, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &325576992
 GameObject:
   m_ObjectHideFlags: 0
@@ -18398,7 +18702,7 @@ PrefabInstance:
     - target: {fileID: 114719629119406064, guid: 9d2ab345b267fb7419aa1d3c8f7f5484,
         type: 3}
       propertyPath: enableMouseAndKeyboard
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 54800216398433040, guid: 9d2ab345b267fb7419aa1d3c8f7f5484,
         type: 3}
@@ -18480,6 +18784,7 @@ GameObject:
   - component: {fileID: 352931363}
   - component: {fileID: 352931365}
   - component: {fileID: 352931364}
+  - component: {fileID: 352931366}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_17
   m_TagString: Untagged
@@ -18549,6 +18854,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 352931362}
   m_Mesh: {fileID: 4300788, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &352931366
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 352931362}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.0000011920929, y: 0, z: -0.00000023841858}
 --- !u!1 &353401543
 GameObject:
   m_ObjectHideFlags: 0
@@ -19281,6 +19599,7 @@ GameObject:
   - component: {fileID: 368974127}
   - component: {fileID: 368974129}
   - component: {fileID: 368974128}
+  - component: {fileID: 368974130}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_16
   m_TagString: Untagged
@@ -19350,6 +19669,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 368974126}
   m_Mesh: {fileID: 4300784, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &368974130
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368974126}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.00000047683716, y: 0, z: -0.00000035762787}
 --- !u!1 &370577486
 GameObject:
   m_ObjectHideFlags: 0
@@ -19512,97 +19844,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 373959758}
   m_Mesh: {fileID: 4300382, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
---- !u!1 &375523750
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 375523751}
-  - component: {fileID: 375523754}
-  - component: {fileID: 375523753}
-  - component: {fileID: 375523752}
-  m_Layer: 0
-  m_Name: Dot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &375523751
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 375523750}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.01, y: 0.01, z: 0.00001}
-  m_Children: []
-  m_Father: {fileID: 1619558495}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &375523752
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 375523750}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &375523753
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 375523750}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a2d81ebaa44ced8459573f0c88f484be, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &375523754
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 375523750}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &375616961
 GameObject:
   m_ObjectHideFlags: 0
@@ -20116,6 +20357,7 @@ GameObject:
   - component: {fileID: 378639052}
   - component: {fileID: 378639054}
   - component: {fileID: 378639053}
+  - component: {fileID: 378639055}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_40
   m_TagString: Untagged
@@ -20185,6 +20427,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 378639051}
   m_Mesh: {fileID: 4300880, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &378639055
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378639051}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.00000047683716, y: 0, z: 0.00000011920929}
 --- !u!1 &378754167
 GameObject:
   m_ObjectHideFlags: 0
@@ -22416,6 +22671,7 @@ GameObject:
   - component: {fileID: 417160332}
   - component: {fileID: 417160334}
   - component: {fileID: 417160333}
+  - component: {fileID: 417160335}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_7
   m_TagString: Untagged
@@ -22485,6 +22741,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 417160331}
   m_Mesh: {fileID: 4300750, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &417160335
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417160331}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.00000047683716, y: -0.00000023841858, z: -0.00000047683716}
 --- !u!1 &421343037
 GameObject:
   m_ObjectHideFlags: 0
@@ -24057,6 +24326,7 @@ GameObject:
   - component: {fileID: 446763282}
   - component: {fileID: 446763284}
   - component: {fileID: 446763283}
+  - component: {fileID: 446763285}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_39
   m_TagString: Untagged
@@ -24126,6 +24396,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 446763281}
   m_Mesh: {fileID: 4300878, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &446763285
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446763281}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.00000071525574, y: 0, z: -0.000000029802322}
 --- !u!1 &450286551
 GameObject:
   m_ObjectHideFlags: 0
@@ -24558,6 +24841,7 @@ GameObject:
   - component: {fileID: 456238111}
   - component: {fileID: 456238113}
   - component: {fileID: 456238112}
+  - component: {fileID: 456238114}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_4
   m_TagString: Untagged
@@ -24627,6 +24911,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 456238110}
   m_Mesh: {fileID: 4300736, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &456238114
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456238110}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.0000009536743, y: 0, z: -0.00000023841858}
 --- !u!1 &456523533
 GameObject:
   m_ObjectHideFlags: 0
@@ -27756,6 +28053,7 @@ GameObject:
   - component: {fileID: 500210942}
   - component: {fileID: 500210944}
   - component: {fileID: 500210943}
+  - component: {fileID: 500210945}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_10
   m_TagString: Untagged
@@ -27825,6 +28123,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 500210941}
   m_Mesh: {fileID: 4300762, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &500210945
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 500210941}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.00000047683716, y: -0.00000023841858, z: -0.00000047683716}
 --- !u!1 &500464328
 GameObject:
   m_ObjectHideFlags: 0
@@ -28613,6 +28924,7 @@ GameObject:
   - component: {fileID: 516426831}
   - component: {fileID: 516426833}
   - component: {fileID: 516426832}
+  - component: {fileID: 516426834}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_10
   m_TagString: Untagged
@@ -28682,6 +28994,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516426830}
   m_Mesh: {fileID: 4300760, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &516426834
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516426830}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: -0.00000023841858}
 --- !u!1 &518040140
 GameObject:
   m_ObjectHideFlags: 0
@@ -28775,6 +29100,7 @@ GameObject:
   - component: {fileID: 519876467}
   - component: {fileID: 519876469}
   - component: {fileID: 519876468}
+  - component: {fileID: 519876470}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_8
   m_TagString: Untagged
@@ -28844,6 +29170,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519876466}
   m_Mesh: {fileID: 4300754, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &519876470
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519876466}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: -0.0000009536743, y: -0.00000023841858, z: -0.00000047683716}
 --- !u!1 &520925240
 GameObject:
   m_ObjectHideFlags: 0
@@ -29570,6 +29909,7 @@ GameObject:
   - component: {fileID: 537564868}
   - component: {fileID: 537564870}
   - component: {fileID: 537564869}
+  - component: {fileID: 537564871}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_11
   m_TagString: Untagged
@@ -29639,6 +29979,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 537564867}
   m_Mesh: {fileID: 4300766, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &537564871
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537564867}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0, y: -0.00000023841858, z: -0.00000047683716}
 --- !u!1 &539787024
 GameObject:
   m_ObjectHideFlags: 0
@@ -31007,6 +31360,7 @@ GameObject:
   - component: {fileID: 558248095}
   - component: {fileID: 558248097}
   - component: {fileID: 558248096}
+  - component: {fileID: 558248098}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_19
   m_TagString: Untagged
@@ -31076,6 +31430,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 558248094}
   m_Mesh: {fileID: 4300798, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &558248098
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558248094}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.00000071525574, y: -0.00000023841858, z: -0.00000047683716}
 --- !u!1 &558583517
 GameObject:
   m_ObjectHideFlags: 0
@@ -31545,6 +31912,7 @@ GameObject:
   - component: {fileID: 567712057}
   - component: {fileID: 567712059}
   - component: {fileID: 567712058}
+  - component: {fileID: 567712060}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_7
   m_TagString: Untagged
@@ -31614,6 +31982,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 567712056}
   m_Mesh: {fileID: 4300748, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &567712060
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567712056}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0, y: -0.00000023841858, z: -0.00000023841858}
 --- !u!1 &569276905
 GameObject:
   m_ObjectHideFlags: 0
@@ -32822,6 +33203,7 @@ GameObject:
   - component: {fileID: 596799117}
   - component: {fileID: 596799119}
   - component: {fileID: 596799118}
+  - component: {fileID: 596799120}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_24
   m_TagString: Untagged
@@ -32891,6 +33273,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 596799116}
   m_Mesh: {fileID: 4300818, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &596799120
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596799116}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0.000000059604645}
 --- !u!1 &598209071
 GameObject:
   m_ObjectHideFlags: 0
@@ -34504,6 +34899,7 @@ GameObject:
   - component: {fileID: 634372886}
   - component: {fileID: 634372888}
   - component: {fileID: 634372887}
+  - component: {fileID: 634372889}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_40
   m_TagString: Untagged
@@ -34573,6 +34969,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 634372885}
   m_Mesh: {fileID: 4300882, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &634372889
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634372885}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.00000071525574, y: 0, z: 0.000000029802322}
 --- !u!1 &637794546
 GameObject:
   m_ObjectHideFlags: 0
@@ -35929,6 +36338,7 @@ GameObject:
   - component: {fileID: 666732266}
   - component: {fileID: 666732268}
   - component: {fileID: 666732267}
+  - component: {fileID: 666732269}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_38
   m_TagString: Untagged
@@ -35998,6 +36408,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 666732265}
   m_Mesh: {fileID: 4300872, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &666732269
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666732265}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.00000071525574, y: 0, z: 0.00000011920929}
 --- !u!1 &666844082
 GameObject:
   m_ObjectHideFlags: 0
@@ -41301,6 +41724,7 @@ GameObject:
   - component: {fileID: 777539848}
   - component: {fileID: 777539850}
   - component: {fileID: 777539849}
+  - component: {fileID: 777539851}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_2
   m_TagString: Untagged
@@ -41370,6 +41794,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 777539847}
   m_Mesh: {fileID: 4300730, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &777539851
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777539847}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: -0.0000009536743, y: -0.00000023841858, z: -0.00000047683716}
 --- !u!1 &777560120
 GameObject:
   m_ObjectHideFlags: 0
@@ -43458,6 +43895,7 @@ GameObject:
   - component: {fileID: 822200000}
   - component: {fileID: 822200002}
   - component: {fileID: 822200001}
+  - component: {fileID: 822200003}
   m_Layer: 0
   m_Name: Decke
   m_TagString: Untagged
@@ -43527,6 +43965,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 822199999}
   m_Mesh: {fileID: 4301260, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &822200003
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 822199999}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 16.830004, y: 0.00000008682474, z: 8.619519}
+  m_Center: {x: -0.53500044, y: 0.0000000434116, z: -1.7402414}
 --- !u!1 &822373434
 GameObject:
   m_ObjectHideFlags: 0
@@ -44471,6 +44922,7 @@ GameObject:
   - component: {fileID: 840407876}
   - component: {fileID: 840407878}
   - component: {fileID: 840407877}
+  - component: {fileID: 840407879}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_22
   m_TagString: Untagged
@@ -44540,6 +44992,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 840407875}
   m_Mesh: {fileID: 4300808, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &840407879
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840407875}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: -0.0000009536743, y: 0, z: 0.00000023841858}
 --- !u!1 &841537977
 GameObject:
   m_ObjectHideFlags: 0
@@ -45500,6 +45965,7 @@ GameObject:
   - component: {fileID: 854876443}
   - component: {fileID: 854876445}
   - component: {fileID: 854876444}
+  - component: {fileID: 854876446}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_5
   m_TagString: Untagged
@@ -45569,6 +46035,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 854876442}
   m_Mesh: {fileID: 4300742, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &854876446
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854876442}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: -0.0000009536743, y: -0.00000023841858, z: -0.00000047683716}
 --- !u!1 &855026039
 GameObject:
   m_ObjectHideFlags: 0
@@ -47297,6 +47776,7 @@ GameObject:
   - component: {fileID: 883665482}
   - component: {fileID: 883665484}
   - component: {fileID: 883665483}
+  - component: {fileID: 883665485}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_3
   m_TagString: Untagged
@@ -47366,6 +47846,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 883665481}
   m_Mesh: {fileID: 4300734, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &883665485
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883665481}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: -0.0000009536743, y: -0.00000023841858, z: -0.00000047683716}
 --- !u!1 &884270036
 GameObject:
   m_ObjectHideFlags: 0
@@ -49147,6 +49640,7 @@ GameObject:
   - component: {fileID: 914948870}
   - component: {fileID: 914948872}
   - component: {fileID: 914948871}
+  - component: {fileID: 914948873}
   m_Layer: 0
   m_Name: Korridor_decke
   m_TagString: Untagged
@@ -49216,6 +49710,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 914948869}
   m_Mesh: {fileID: 4302026, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &914948873
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914948869}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 18.685268, y: 1.8274069, z: 0}
+  m_Center: {x: 0, y: -0.00000008940695, z: -0.0000004577636}
 --- !u!1 &915112746
 GameObject:
   m_ObjectHideFlags: 0
@@ -50136,6 +50643,7 @@ GameObject:
   - component: {fileID: 928583892}
   - component: {fileID: 928583894}
   - component: {fileID: 928583893}
+  - component: {fileID: 928583895}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_35
   m_TagString: Untagged
@@ -50205,6 +50713,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 928583891}
   m_Mesh: {fileID: 4300862, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &928583895
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928583891}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.00000047683716, y: 0, z: 0.00000008940697}
 --- !u!1 &929261608
 GameObject:
   m_ObjectHideFlags: 0
@@ -50394,6 +50915,7 @@ GameObject:
   - component: {fileID: 934397407}
   - component: {fileID: 934397409}
   - component: {fileID: 934397408}
+  - component: {fileID: 934397410}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_23
   m_TagString: Untagged
@@ -50463,6 +50985,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 934397406}
   m_Mesh: {fileID: 4300814, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &934397410
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934397406}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0.00000014901161}
 --- !u!1 &935109878
 GameObject:
   m_ObjectHideFlags: 0
@@ -50752,6 +51287,7 @@ GameObject:
   - component: {fileID: 935999878}
   - component: {fileID: 935999880}
   - component: {fileID: 935999879}
+  - component: {fileID: 935999881}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_33
   m_TagString: Untagged
@@ -50821,6 +51357,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 935999877}
   m_Mesh: {fileID: 4300852, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &935999881
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935999877}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.00000047683716, y: 0, z: 0.00000035762787}
 --- !u!1 &936880222
 GameObject:
   m_ObjectHideFlags: 0
@@ -51238,6 +51787,7 @@ GameObject:
   - component: {fileID: 942814598}
   - component: {fileID: 942814600}
   - component: {fileID: 942814599}
+  - component: {fileID: 942814601}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_5
   m_TagString: Untagged
@@ -51307,6 +51857,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 942814597}
   m_Mesh: {fileID: 4300740, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &942814601
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942814597}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: -0.0000009536743, y: -0.00000023841858, z: -0.00000023841858}
 --- !u!1 &942862519
 GameObject:
   m_ObjectHideFlags: 0
@@ -52063,6 +52626,7 @@ GameObject:
   - component: {fileID: 957609133}
   - component: {fileID: 957609135}
   - component: {fileID: 957609134}
+  - component: {fileID: 957609136}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_32
   m_TagString: Untagged
@@ -52132,6 +52696,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 957609132}
   m_Mesh: {fileID: 4300848, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &957609136
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957609132}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.00000047683716, y: -0.00000047683716, z: 0.00000023841858}
 --- !u!1 &959651802
 GameObject:
   m_ObjectHideFlags: 0
@@ -52943,6 +53520,7 @@ GameObject:
   - component: {fileID: 971020363}
   - component: {fileID: 971020365}
   - component: {fileID: 971020364}
+  - component: {fileID: 971020366}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_42
   m_TagString: Untagged
@@ -53012,6 +53590,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 971020362}
   m_Mesh: {fileID: 4300890, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &971020366
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971020362}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.0000009536743, y: 0, z: 0.000000029802322}
 --- !u!1 &971055619
 GameObject:
   m_ObjectHideFlags: 0
@@ -53473,6 +54064,102 @@ MonoBehaviour:
   hitTexture: {fileID: 2800000, guid: b3a5316397b5a254685adfbf55fafdeb, type: 3}
   speed: 3
   reactivationInterval: 21.2
+--- !u!82 &979374587
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979374582}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2a80bbdf8ee1b854b812f741c357e99a, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &980177552
 GameObject:
   m_ObjectHideFlags: 0
@@ -53647,6 +54334,7 @@ GameObject:
   - component: {fileID: 982847202}
   - component: {fileID: 982847204}
   - component: {fileID: 982847203}
+  - component: {fileID: 982847205}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_9
   m_TagString: Untagged
@@ -53716,6 +54404,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 982847201}
   m_Mesh: {fileID: 4300756, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &982847205
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982847201}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: -0.00000023841858}
 --- !u!1 &984152298
 GameObject:
   m_ObjectHideFlags: 0
@@ -54790,6 +55491,7 @@ GameObject:
   - component: {fileID: 1003260108}
   - component: {fileID: 1003260110}
   - component: {fileID: 1003260109}
+  - component: {fileID: 1003260111}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_18
   m_TagString: Untagged
@@ -54859,6 +55561,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1003260107}
   m_Mesh: {fileID: 4300792, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1003260111
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003260107}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.0000009536743, y: -0.00000023841858, z: -0.00000011920929}
 --- !u!1 &1003514241
 GameObject:
   m_ObjectHideFlags: 0
@@ -55276,6 +55991,7 @@ GameObject:
   - component: {fileID: 1008345805}
   - component: {fileID: 1008345807}
   - component: {fileID: 1008345806}
+  - component: {fileID: 1008345808}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_28
   m_TagString: Untagged
@@ -55345,6 +56061,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1008345804}
   m_Mesh: {fileID: 4300834, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1008345808
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008345804}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0.000000029802322}
 --- !u!1 &1009676693
 GameObject:
   m_ObjectHideFlags: 0
@@ -55888,6 +56617,7 @@ GameObject:
   - component: {fileID: 1014229390}
   - component: {fileID: 1014229392}
   - component: {fileID: 1014229391}
+  - component: {fileID: 1014229393}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_36
   m_TagString: Untagged
@@ -55957,6 +56687,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1014229389}
   m_Mesh: {fileID: 4300866, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1014229393
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014229389}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.0000009536743, y: 0, z: 0.000000059604645}
 --- !u!1 &1014694150
 GameObject:
   m_ObjectHideFlags: 0
@@ -57386,6 +58129,7 @@ GameObject:
   - component: {fileID: 1038928268}
   - component: {fileID: 1038928270}
   - component: {fileID: 1038928269}
+  - component: {fileID: 1038928271}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_22
   m_TagString: Untagged
@@ -57455,6 +58199,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1038928267}
   m_Mesh: {fileID: 4300810, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1038928271
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038928267}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: -0.0000009536743, y: 0, z: 0.00000011920929}
 --- !u!1 &1041828942
 GameObject:
   m_ObjectHideFlags: 0
@@ -57467,6 +58224,7 @@ GameObject:
   - component: {fileID: 1041828943}
   - component: {fileID: 1041828945}
   - component: {fileID: 1041828944}
+  - component: {fileID: 1041828946}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_3
   m_TagString: Untagged
@@ -57536,6 +58294,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1041828942}
   m_Mesh: {fileID: 4300732, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1041828946
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041828942}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: -0.0000009536743, y: -0.00000023841858, z: -0.00000011920929}
 --- !u!1 &1042906077
 GameObject:
   m_ObjectHideFlags: 0
@@ -57886,6 +58657,7 @@ GameObject:
   - component: {fileID: 1046123584}
   - component: {fileID: 1046123586}
   - component: {fileID: 1046123585}
+  - component: {fileID: 1046123587}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_20
   m_TagString: Untagged
@@ -57955,6 +58727,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1046123583}
   m_Mesh: {fileID: 4300800, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1046123587
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046123583}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.0000014305115, y: 0, z: -0.00000023841858}
 --- !u!1 &1046786807
 GameObject:
   m_ObjectHideFlags: 0
@@ -59344,6 +60129,7 @@ GameObject:
   - component: {fileID: 1069237155}
   - component: {fileID: 1069237157}
   - component: {fileID: 1069237156}
+  - component: {fileID: 1069237158}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_33
   m_TagString: Untagged
@@ -59413,6 +60199,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1069237154}
   m_Mesh: {fileID: 4300854, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1069237158
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069237154}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.00000047683716, y: 0, z: 0.000000059604645}
 --- !u!1 &1070117526
 GameObject:
   m_ObjectHideFlags: 0
@@ -62700,6 +63499,7 @@ GameObject:
   - component: {fileID: 1120570567}
   - component: {fileID: 1120570569}
   - component: {fileID: 1120570568}
+  - component: {fileID: 1120570570}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_2
   m_TagString: Untagged
@@ -62769,6 +63569,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1120570566}
   m_Mesh: {fileID: 4300728, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1120570570
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120570566}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0, y: -0.00000023841858, z: -0.00000023841858}
 --- !u!1 &1121256985
 GameObject:
   m_ObjectHideFlags: 0
@@ -63867,6 +64680,7 @@ GameObject:
   - component: {fileID: 1136793500}
   - component: {fileID: 1136793502}
   - component: {fileID: 1136793501}
+  - component: {fileID: 1136793503}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_14
   m_TagString: Untagged
@@ -63936,6 +64750,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1136793499}
   m_Mesh: {fileID: 4300776, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1136793503
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136793499}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.00000047683716, y: 0, z: -0.00000023841858}
 --- !u!1 &1139266275
 GameObject:
   m_ObjectHideFlags: 0
@@ -64633,6 +65460,7 @@ GameObject:
   - component: {fileID: 1149265571}
   - component: {fileID: 1149265573}
   - component: {fileID: 1149265572}
+  - component: {fileID: 1149265574}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_23
   m_TagString: Untagged
@@ -64702,6 +65530,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1149265570}
   m_Mesh: {fileID: 4300812, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1149265574
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149265570}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0.00000035762787}
 --- !u!1 &1149369179
 GameObject:
   m_ObjectHideFlags: 0
@@ -65671,6 +66512,102 @@ MonoBehaviour:
   hitTexture: {fileID: 2800000, guid: b3a5316397b5a254685adfbf55fafdeb, type: 3}
   speed: 3
   reactivationInterval: 21.2
+--- !u!82 &1168802720
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168802715}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2a80bbdf8ee1b854b812f741c357e99a, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1169198036
 GameObject:
   m_ObjectHideFlags: 0
@@ -67491,6 +68428,102 @@ MonoBehaviour:
   hitTexture: {fileID: 2800000, guid: b3a5316397b5a254685adfbf55fafdeb, type: 3}
   speed: 3
   reactivationInterval: 21.2
+--- !u!82 &1205963729
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205963724}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2a80bbdf8ee1b854b812f741c357e99a, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1206114878
 GameObject:
   m_ObjectHideFlags: 0
@@ -67503,6 +68536,7 @@ GameObject:
   - component: {fileID: 1206114879}
   - component: {fileID: 1206114881}
   - component: {fileID: 1206114880}
+  - component: {fileID: 1206114882}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1
   m_TagString: Untagged
@@ -67572,6 +68606,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1206114878}
   m_Mesh: {fileID: 4300726, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1206114882
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206114878}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: -0.0000009536743, y: -0.00000023841858, z: -0.00000047683716}
 --- !u!1 &1206952706
 GameObject:
   m_ObjectHideFlags: 0
@@ -69862,6 +70909,7 @@ GameObject:
   - component: {fileID: 1241793454}
   - component: {fileID: 1241793456}
   - component: {fileID: 1241793455}
+  - component: {fileID: 1241793457}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_31
   m_TagString: Untagged
@@ -69931,6 +70979,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241793453}
   m_Mesh: {fileID: 4300844, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1241793457
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241793453}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.0000009536743, y: 0, z: 0.00000023841858}
 --- !u!1 &1245566156
 GameObject:
   m_ObjectHideFlags: 0
@@ -69943,6 +71004,7 @@ GameObject:
   - component: {fileID: 1245566157}
   - component: {fileID: 1245566159}
   - component: {fileID: 1245566158}
+  - component: {fileID: 1245566160}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_13
   m_TagString: Untagged
@@ -70012,6 +71074,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1245566156}
   m_Mesh: {fileID: 4300772, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1245566160
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245566156}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: -0.00000011920929}
 --- !u!1 &1246409424
 GameObject:
   m_ObjectHideFlags: 0
@@ -71342,6 +72417,7 @@ GameObject:
   - component: {fileID: 1266186549}
   - component: {fileID: 1266186551}
   - component: {fileID: 1266186550}
+  - component: {fileID: 1266186552}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_6
   m_TagString: Untagged
@@ -71411,6 +72487,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1266186548}
   m_Mesh: {fileID: 4300744, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1266186552
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266186548}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0, y: -0.00000023841858, z: -0.00000023841858}
 --- !u!1 &1266417904
 GameObject:
   m_ObjectHideFlags: 0
@@ -71935,6 +73024,102 @@ MonoBehaviour:
   hitTexture: {fileID: 2800000, guid: b3a5316397b5a254685adfbf55fafdeb, type: 3}
   speed: 3
   reactivationInterval: 21.2
+--- !u!82 &1272736968
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272736963}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2a80bbdf8ee1b854b812f741c357e99a, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1272743231
 GameObject:
   m_ObjectHideFlags: 0
@@ -72301,6 +73486,7 @@ GameObject:
   - component: {fileID: 1279770771}
   - component: {fileID: 1279770773}
   - component: {fileID: 1279770772}
+  - component: {fileID: 1279770774}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_25
   m_TagString: Untagged
@@ -72370,6 +73556,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1279770770}
   m_Mesh: {fileID: 4300822, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1279770774
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279770770}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.0000009536743, y: 0, z: 0.000000059604645}
 --- !u!1 &1286606706
 GameObject:
   m_ObjectHideFlags: 0
@@ -72463,6 +73662,7 @@ GameObject:
   - component: {fileID: 1287623506}
   - component: {fileID: 1287623508}
   - component: {fileID: 1287623507}
+  - component: {fileID: 1287623509}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_36
   m_TagString: Untagged
@@ -72532,6 +73732,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1287623505}
   m_Mesh: {fileID: 4300864, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1287623509
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287623505}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.0000009536743, y: 0, z: 0.00000011920929}
 --- !u!1 &1295031487
 GameObject:
   m_ObjectHideFlags: 0
@@ -73660,7 +74873,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Ammunition: {fileID: 100000, guid: c7283324086af82418318ce3a8f70df1, type: 3}
   maxBalls: 50
-  crosshairPrefab: {fileID: 0}
+  crosshairPrefab: {fileID: 6770625251753357869, guid: 0ce4de26d6332ba4496be197d9e4f4ee,
+    type: 3}
 --- !u!4 &1325894125 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4483489447010232, guid: 9d2ab345b267fb7419aa1d3c8f7f5484,
@@ -74651,6 +75865,7 @@ GameObject:
   - component: {fileID: 1349236504}
   - component: {fileID: 1349236506}
   - component: {fileID: 1349236505}
+  - component: {fileID: 1349236507}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_39
   m_TagString: Untagged
@@ -74720,6 +75935,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1349236503}
   m_Mesh: {fileID: 4300876, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1349236507
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349236503}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.00000047683716, y: 0, z: 0}
 --- !u!1 &1349372913
 GameObject:
   m_ObjectHideFlags: 0
@@ -75596,6 +76824,7 @@ GameObject:
   - component: {fileID: 1364837049}
   - component: {fileID: 1364837051}
   - component: {fileID: 1364837050}
+  - component: {fileID: 1364837052}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0
   m_TagString: Untagged
@@ -75665,6 +76894,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1364837048}
   m_Mesh: {fileID: 4300724, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1364837052
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364837048}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: -0.0000009536743, y: 0, z: -0.00000023841858}
 --- !u!1 &1365718344
 GameObject:
   m_ObjectHideFlags: 0
@@ -77399,6 +78641,7 @@ GameObject:
   - component: {fileID: 1395376547}
   - component: {fileID: 1395376549}
   - component: {fileID: 1395376548}
+  - component: {fileID: 1395376550}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_32
   m_TagString: Untagged
@@ -77468,6 +78711,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1395376546}
   m_Mesh: {fileID: 4300850, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1395376550
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395376546}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.00000047683716, y: 0, z: 0.000000059604645}
 --- !u!1 &1397628263
 GameObject:
   m_ObjectHideFlags: 0
@@ -78807,6 +80063,102 @@ MonoBehaviour:
   hitTexture: {fileID: 2800000, guid: b3a5316397b5a254685adfbf55fafdeb, type: 3}
   speed: 3
   reactivationInterval: 21.2
+--- !u!82 &1419169065
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419169060}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2a80bbdf8ee1b854b812f741c357e99a, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1419984227
 GameObject:
   m_ObjectHideFlags: 0
@@ -79365,6 +80717,7 @@ GameObject:
   - component: {fileID: 1429002592}
   - component: {fileID: 1429002594}
   - component: {fileID: 1429002593}
+  - component: {fileID: 1429002595}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_35
   m_TagString: Untagged
@@ -79434,6 +80787,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1429002591}
   m_Mesh: {fileID: 4300860, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1429002595
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429002591}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.00000047683716, y: 0, z: 0}
 --- !u!1 &1435740879
 GameObject:
   m_ObjectHideFlags: 0
@@ -79817,6 +81183,7 @@ GameObject:
   - component: {fileID: 1447538795}
   - component: {fileID: 1447538797}
   - component: {fileID: 1447538796}
+  - component: {fileID: 1447538798}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_41
   m_TagString: Untagged
@@ -79886,6 +81253,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1447538794}
   m_Mesh: {fileID: 4300884, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1447538798
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447538794}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.0000009536743, y: 0, z: 0.00000011920929}
 --- !u!1 &1448105147
 GameObject:
   m_ObjectHideFlags: 0
@@ -80325,6 +81705,7 @@ GameObject:
   - component: {fileID: 1462746769}
   - component: {fileID: 1462746771}
   - component: {fileID: 1462746770}
+  - component: {fileID: 1462746772}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_24
   m_TagString: Untagged
@@ -80394,6 +81775,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1462746768}
   m_Mesh: {fileID: 4300816, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1462746772
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462746768}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1466349836
 GameObject:
   m_ObjectHideFlags: 0
@@ -81431,6 +82825,7 @@ GameObject:
   - component: {fileID: 1480610694}
   - component: {fileID: 1480610696}
   - component: {fileID: 1480610695}
+  - component: {fileID: 1480610697}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_6
   m_TagString: Untagged
@@ -81500,6 +82895,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1480610693}
   m_Mesh: {fileID: 4300746, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1480610697
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480610693}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0, y: -0.00000023841858, z: -0.00000047683716}
 --- !u!1 &1481174186
 GameObject:
   m_ObjectHideFlags: 0
@@ -82611,6 +84019,7 @@ GameObject:
   - component: {fileID: 1494875045}
   - component: {fileID: 1494875047}
   - component: {fileID: 1494875046}
+  - component: {fileID: 1494875048}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_26
   m_TagString: Untagged
@@ -82680,6 +84089,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1494875044}
   m_Mesh: {fileID: 4300824, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1494875048
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494875044}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1496177128
 GameObject:
   m_ObjectHideFlags: 0
@@ -85338,6 +86760,7 @@ GameObject:
   - component: {fileID: 1544148980}
   - component: {fileID: 1544148982}
   - component: {fileID: 1544148981}
+  - component: {fileID: 1544148983}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_15
   m_TagString: Untagged
@@ -85407,6 +86830,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1544148979}
   m_Mesh: {fileID: 4300780, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1544148983
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544148979}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.0000009536743, y: -0.00000023841858, z: -0.00000023841858}
 --- !u!1 &1545451152
 GameObject:
   m_ObjectHideFlags: 0
@@ -86348,6 +87784,7 @@ GameObject:
   - component: {fileID: 1558110995}
   - component: {fileID: 1558110997}
   - component: {fileID: 1558110996}
+  - component: {fileID: 1558110998}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_28
   m_TagString: Untagged
@@ -86417,6 +87854,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1558110994}
   m_Mesh: {fileID: 4300832, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1558110998
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558110994}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0, y: -0.00000047683716, z: 0.00000011920929}
 --- !u!1 &1560184834
 GameObject:
   m_ObjectHideFlags: 0
@@ -87616,6 +89066,7 @@ GameObject:
   - component: {fileID: 1592373995}
   - component: {fileID: 1592373997}
   - component: {fileID: 1592373996}
+  - component: {fileID: 1592373998}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_19
   m_TagString: Untagged
@@ -87685,6 +89136,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1592373994}
   m_Mesh: {fileID: 4300796, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1592373998
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592373994}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.0000009536743, y: -0.00000023841858, z: -0.00000023841858}
 --- !u!1 &1593628260
 GameObject:
   m_ObjectHideFlags: 0
@@ -88158,6 +89622,7 @@ GameObject:
   - component: {fileID: 1599570057}
   - component: {fileID: 1599570059}
   - component: {fileID: 1599570058}
+  - component: {fileID: 1599570060}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_34
   m_TagString: Untagged
@@ -88227,6 +89692,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1599570056}
   m_Mesh: {fileID: 4300858, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1599570060
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599570056}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.0000009536743, y: 0, z: 0.000000029802322}
 --- !u!1 &1599946893
 GameObject:
   m_ObjectHideFlags: 0
@@ -89324,53 +90802,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1618470414}
   m_Mesh: {fileID: 4300950, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
---- !u!1 &1619558493
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1619558495}
-  - component: {fileID: 1619558494}
-  m_Layer: 0
-  m_Name: Crosshair
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1619558494
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1619558493}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f38f74bee12d6742aab53196a696023, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  crosshairColor: {r: 1, g: 0, b: 0, a: 1}
-  transparency: 0.7
-  size: 6.22
---- !u!4 &1619558495
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1619558493}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 375523751}
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1619946767
 GameObject:
   m_ObjectHideFlags: 0
@@ -90002,6 +91433,7 @@ GameObject:
   - component: {fileID: 1634624612}
   - component: {fileID: 1634624614}
   - component: {fileID: 1634624613}
+  - component: {fileID: 1634624615}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_11
   m_TagString: Untagged
@@ -90071,6 +91503,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1634624611}
   m_Mesh: {fileID: 4300764, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1634624615
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634624611}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: -0.00000047683716, y: -0.00000023841858, z: -0.00000023841858}
 --- !u!1 &1635097791
 GameObject:
   m_ObjectHideFlags: 0
@@ -91848,6 +93293,7 @@ GameObject:
   - component: {fileID: 1672262856}
   - component: {fileID: 1672262858}
   - component: {fileID: 1672262857}
+  - component: {fileID: 1672262859}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_26
   m_TagString: Untagged
@@ -91917,6 +93363,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1672262855}
   m_Mesh: {fileID: 4300826, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1672262859
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672262855}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: -0.0000009536743, y: 0, z: -0.000000029802322}
 --- !u!1 &1676498918
 GameObject:
   m_ObjectHideFlags: 0
@@ -92449,6 +93908,7 @@ GameObject:
   - component: {fileID: 1683740621}
   - component: {fileID: 1683740623}
   - component: {fileID: 1683740622}
+  - component: {fileID: 1683740624}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_16
   m_TagString: Untagged
@@ -92518,6 +93978,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1683740620}
   m_Mesh: {fileID: 4300786, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1683740624
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683740620}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.0000009536743, y: -0.00000023841858, z: -0.00000047683716}
 --- !u!1 &1684929257
 GameObject:
   m_ObjectHideFlags: 0
@@ -96379,6 +97852,7 @@ GameObject:
   - component: {fileID: 1752068594}
   - component: {fileID: 1752068596}
   - component: {fileID: 1752068595}
+  - component: {fileID: 1752068597}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_31
   m_TagString: Untagged
@@ -96448,6 +97922,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1752068593}
   m_Mesh: {fileID: 4300846, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1752068597
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752068593}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: -0.000000059604645}
 --- !u!1 &1752895914
 GameObject:
   m_ObjectHideFlags: 0
@@ -98200,6 +99687,7 @@ GameObject:
   - component: {fileID: 1775487334}
   - component: {fileID: 1775487336}
   - component: {fileID: 1775487335}
+  - component: {fileID: 1775487337}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_27
   m_TagString: Untagged
@@ -98269,6 +99757,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1775487333}
   m_Mesh: {fileID: 4300828, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1775487337
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775487333}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.0000009536743, y: 0, z: 0.00000023841858}
 --- !u!1 &1775921350
 GameObject:
   m_ObjectHideFlags: 0
@@ -98753,6 +100254,7 @@ GameObject:
   - component: {fileID: 1782808842}
   - component: {fileID: 1782808844}
   - component: {fileID: 1782808843}
+  - component: {fileID: 1782808845}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_12
   m_TagString: Untagged
@@ -98822,6 +100324,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1782808841}
   m_Mesh: {fileID: 4300770, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1782808845
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782808841}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.0000009536743, y: -0.00000023841858, z: -0.00000047683716}
 --- !u!1 &1786086097
 GameObject:
   m_ObjectHideFlags: 0
@@ -98900,6 +100415,7 @@ GameObject:
   - component: {fileID: 1786285080}
   - component: {fileID: 1786285082}
   - component: {fileID: 1786285081}
+  - component: {fileID: 1786285083}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_29
   m_TagString: Untagged
@@ -98969,6 +100485,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1786285079}
   m_Mesh: {fileID: 4300838, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1786285083
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786285079}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: -0.000000029802322}
 --- !u!1 &1788424332
 GameObject:
   m_ObjectHideFlags: 0
@@ -99810,6 +101339,7 @@ GameObject:
   - component: {fileID: 1804506033}
   - component: {fileID: 1804506035}
   - component: {fileID: 1804506034}
+  - component: {fileID: 1804506036}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_30
   m_TagString: Untagged
@@ -99879,6 +101409,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1804506032}
   m_Mesh: {fileID: 4300842, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1804506036
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804506032}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0.000000029802322}
 --- !u!1 &1804668792
 GameObject:
   m_ObjectHideFlags: 0
@@ -101040,6 +102583,7 @@ GameObject:
   - component: {fileID: 1820730898}
   - component: {fileID: 1820730900}
   - component: {fileID: 1820730899}
+  - component: {fileID: 1820730901}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_9
   m_TagString: Untagged
@@ -101109,6 +102653,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1820730897}
   m_Mesh: {fileID: 4300758, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1820730901
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820730897}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.00000047683716, y: -0.00000023841858, z: -0.00000047683716}
 --- !u!1 &1821141199
 GameObject:
   m_ObjectHideFlags: 0
@@ -103496,6 +105053,7 @@ GameObject:
   - component: {fileID: 1858759830}
   - component: {fileID: 1858759832}
   - component: {fileID: 1858759831}
+  - component: {fileID: 1858759833}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_25
   m_TagString: Untagged
@@ -103565,6 +105123,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1858759829}
   m_Mesh: {fileID: 4300820, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1858759833
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858759829}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.0000009536743, y: 0, z: 0.00000011920929}
 --- !u!1 &1859201396
 GameObject:
   m_ObjectHideFlags: 0
@@ -104636,6 +106207,7 @@ GameObject:
   - component: {fileID: 1876833477}
   - component: {fileID: 1876833479}
   - component: {fileID: 1876833478}
+  - component: {fileID: 1876833480}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_4
   m_TagString: Untagged
@@ -104705,6 +106277,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1876833476}
   m_Mesh: {fileID: 4300738, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1876833480
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876833476}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.0000009536743, y: -0.00000023841858, z: -0.00000047683716}
 --- !u!1 &1879543316
 GameObject:
   m_ObjectHideFlags: 0
@@ -105102,6 +106687,7 @@ GameObject:
   - component: {fileID: 1889884086}
   - component: {fileID: 1889884088}
   - component: {fileID: 1889884087}
+  - component: {fileID: 1889884089}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_41
   m_TagString: Untagged
@@ -105171,6 +106757,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1889884085}
   m_Mesh: {fileID: 4300886, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1889884089
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889884085}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.0000011920929, y: 0, z: 0.00000008940697}
 --- !u!1 &1891890590
 GameObject:
   m_ObjectHideFlags: 0
@@ -105784,6 +107383,7 @@ GameObject:
   - component: {fileID: 1897819379}
   - component: {fileID: 1897819381}
   - component: {fileID: 1897819380}
+  - component: {fileID: 1897819382}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_20
   m_TagString: Untagged
@@ -105853,6 +107453,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1897819378}
   m_Mesh: {fileID: 4300802, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1897819382
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897819378}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.00000071525574, y: -0.00000023841858, z: -0.00000047683716}
 --- !u!1 &1898917411
 GameObject:
   m_ObjectHideFlags: 0
@@ -106261,6 +107874,7 @@ GameObject:
   - component: {fileID: 1904480554}
   - component: {fileID: 1904480556}
   - component: {fileID: 1904480555}
+  - component: {fileID: 1904480557}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_38
   m_TagString: Untagged
@@ -106330,6 +107944,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1904480553}
   m_Mesh: {fileID: 4300874, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1904480557
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904480553}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.0000009536743, y: 0, z: 0.00000011920929}
 --- !u!1 &1905435852
 GameObject:
   m_ObjectHideFlags: 0
@@ -106783,6 +108410,7 @@ GameObject:
   - component: {fileID: 1912874379}
   - component: {fileID: 1912874381}
   - component: {fileID: 1912874380}
+  - component: {fileID: 1912874382}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_34
   m_TagString: Untagged
@@ -106852,6 +108480,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1912874378}
   m_Mesh: {fileID: 4300856, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1912874382
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912874378}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.0000009536743, y: 0, z: 0}
 --- !u!1 &1914114576
 GameObject:
   m_ObjectHideFlags: 0
@@ -107107,6 +108748,7 @@ GameObject:
   - component: {fileID: 1918687729}
   - component: {fileID: 1918687731}
   - component: {fileID: 1918687730}
+  - component: {fileID: 1918687732}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_8
   m_TagString: Untagged
@@ -107176,6 +108818,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1918687728}
   m_Mesh: {fileID: 4300752, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1918687732
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918687728}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: -0.00000011920929}
 --- !u!1 &1919965587
 GameObject:
   m_ObjectHideFlags: 0
@@ -107385,6 +109040,7 @@ GameObject:
   - component: {fileID: 1925106932}
   - component: {fileID: 1925106934}
   - component: {fileID: 1925106933}
+  - component: {fileID: 1925106935}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_37
   m_TagString: Untagged
@@ -107454,6 +109110,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1925106931}
   m_Mesh: {fileID: 4300870, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1925106935
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925106931}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.0000009536743, y: 0, z: 0.000000029802322}
 --- !u!1 &1927769402
 GameObject:
   m_ObjectHideFlags: 0
@@ -109173,6 +110842,7 @@ GameObject:
   - component: {fileID: 1951910637}
   - component: {fileID: 1951910639}
   - component: {fileID: 1951910638}
+  - component: {fileID: 1951910640}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_0_30
   m_TagString: Untagged
@@ -109242,6 +110912,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1951910636}
   m_Mesh: {fileID: 4300840, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1951910640
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951910636}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0.00000011920929}
 --- !u!1 &1952607492
 GameObject:
   m_ObjectHideFlags: 0
@@ -109650,6 +111333,7 @@ GameObject:
   - component: {fileID: 1961968340}
   - component: {fileID: 1961968342}
   - component: {fileID: 1961968341}
+  - component: {fileID: 1961968343}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_17
   m_TagString: Untagged
@@ -109719,6 +111403,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1961968339}
   m_Mesh: {fileID: 4300790, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1961968343
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961968339}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.00000047683716, y: -0.00000023841858, z: -0.00000047683716}
 --- !u!1 &1962796675
 GameObject:
   m_ObjectHideFlags: 0
@@ -110975,6 +112672,102 @@ MonoBehaviour:
   hitTexture: {fileID: 2800000, guid: b3a5316397b5a254685adfbf55fafdeb, type: 3}
   speed: 3
   reactivationInterval: 21.2
+--- !u!82 &1988366761
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988366756}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2a80bbdf8ee1b854b812f741c357e99a, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1990384761
 GameObject:
   m_ObjectHideFlags: 0
@@ -111039,6 +112832,7 @@ GameObject:
   - component: {fileID: 1992284893}
   - component: {fileID: 1992284895}
   - component: {fileID: 1992284894}
+  - component: {fileID: 1992284896}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_14
   m_TagString: Untagged
@@ -111108,6 +112902,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1992284892}
   m_Mesh: {fileID: 4300778, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1992284896
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992284892}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.0000009536743, y: -0.00000023841858, z: -0.00000047683716}
 --- !u!1 &1994979362
 GameObject:
   m_ObjectHideFlags: 0
@@ -111120,6 +112927,7 @@ GameObject:
   - component: {fileID: 1994979363}
   - component: {fileID: 1994979365}
   - component: {fileID: 1994979364}
+  - component: {fileID: 1994979366}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_21
   m_TagString: Untagged
@@ -111189,6 +112997,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1994979362}
   m_Mesh: {fileID: 4300806, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &1994979366
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994979362}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.00000071525574, y: -0.00000023841858, z: -0.00000047683716}
 --- !u!1 &1996722475
 GameObject:
   m_ObjectHideFlags: 0
@@ -111572,6 +113393,102 @@ MonoBehaviour:
   hitTexture: {fileID: 2800000, guid: b3a5316397b5a254685adfbf55fafdeb, type: 3}
   speed: 3
   reactivationInterval: 21.2
+--- !u!82 &2001866659
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001866654}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2a80bbdf8ee1b854b812f741c357e99a, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &2002657715
 GameObject:
   m_ObjectHideFlags: 0
@@ -112173,6 +114090,102 @@ MonoBehaviour:
   hitTexture: {fileID: 2800000, guid: b3a5316397b5a254685adfbf55fafdeb, type: 3}
   speed: 3
   reactivationInterval: 21.2
+--- !u!82 &2012256297
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012256292}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2a80bbdf8ee1b854b812f741c357e99a, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &2012755928
 GameObject:
   m_ObjectHideFlags: 0
@@ -113956,6 +115969,102 @@ MonoBehaviour:
   hitTexture: {fileID: 2800000, guid: b3a5316397b5a254685adfbf55fafdeb, type: 3}
   speed: 3
   reactivationInterval: 21.2
+--- !u!82 &2038007435
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038007430}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2a80bbdf8ee1b854b812f741c357e99a, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &2041858599
 GameObject:
   m_ObjectHideFlags: 0
@@ -116087,6 +118196,7 @@ GameObject:
   - component: {fileID: 2104534660}
   - component: {fileID: 2104534662}
   - component: {fileID: 2104534661}
+  - component: {fileID: 2104534663}
   m_Layer: 0
   m_Name: Decke_Schallverteiler_W_rfel_1_15
   m_TagString: Untagged
@@ -116156,6 +118266,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2104534659}
   m_Mesh: {fileID: 4300782, guid: a27e7ef3471e9914da54864ef7679dc7, type: 3}
+--- !u!65 &2104534663
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104534659}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05000001, y: 0.49999997, z: 1.0000002}
+  m_Center: {x: 0.0000014305115, y: -0.00000023841858, z: -0.00000047683716}
 --- !u!1001 &2105147811
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -116163,6 +118286,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1476990731285372, guid: 5f4ffec32610ea146bd097e4dcacecf3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4486614862502134, guid: 5f4ffec32610ea146bd097e4dcacecf3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
