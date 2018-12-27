@@ -138,8 +138,16 @@ public class ShootController : MonoBehaviour
 
     private void Reset(Joycon joy)
     {
-        Transform shootdirection = leftCrosshair.transform.GetChild(1).transform;
-        shootdirection.forward = transform.forward;
+        if(joy != null && joy.isLeft)
+        {
+            Transform shootdirection = leftCrosshair.transform.GetChild(1).transform;
+            shootdirection.forward = transform.forward;
+        }
+        else if(joy != null)
+        {
+            Transform shootdirection = rightCrosshair.transform.GetChild(1).transform;
+            shootdirection.forward = transform.forward;
+        }
     }
 
     private void ThrowBall(Joycon joy)

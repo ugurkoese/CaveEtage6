@@ -100,7 +100,7 @@ public class Enemy : MonoBehaviour
                 {
                     if (gameObject.name == "EnemyS2")
                     {
-                        Debug.Log(transform.localEulerAngles.x + " < " + targetStandUp.x);
+                        //Debug.Log(transform.localEulerAngles.x + " < " + targetStandUp.x);
                     }
                     if (transform.localEulerAngles.x < 350f)
                     {

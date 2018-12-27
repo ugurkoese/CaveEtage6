@@ -138,7 +138,7 @@ namespace CaveAsset
                     transform.Rotate(0.0f, rotateY, 0.0f);
                     //transform.Rotate(rotateX, 0.0f, 0.0f);
                 }
-                else
+                else if(joyconController.GetNumberOfJoycons() != 0)
                 {
                     move = joyconController.GetLeftJoycon().GetStick();
                     // move[0] is the X-Axis of the joycon if holded vertical
@@ -158,7 +158,7 @@ namespace CaveAsset
                     if (joyconController.GetJoycon(1).GetButtonDown(JoyconAPI.Joycon.Button.DPAD_UP))
                         Application.Quit();
                 }
-                else
+                else if(joyconController.GetNumberOfJoycons() != 0)
                 {
                     if (joyconController.GetJoycon(0).GetButtonDown(JoyconAPI.Joycon.Button.DPAD_UP))
                         Application.Quit();
