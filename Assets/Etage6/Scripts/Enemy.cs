@@ -42,7 +42,7 @@ public class Enemy : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.name == "Tennisball(Clone)" && readyToHit)
+        if (other.name == "Tennisball(Clone)" && readyToHit && !(other.GetComponent<TennisballBehaviour>().Disabled))
         {
             audioSource.Play();
             readyToHit = false;
@@ -110,7 +110,6 @@ public class Enemy : MonoBehaviour
                 {
                     if (transform.localEulerAngles.x <= 275f)
                     {
-                        Debug.Log("INVOKE!");
                         Invoke("Reactivate", reactivationInterval);
                     }
                     else if (transform.localEulerAngles.x > 275f)
@@ -118,10 +117,7 @@ public class Enemy : MonoBehaviour
                         transform.Rotate(-Vector3.right * Time.deltaTime * speed * 30, Space.Self);
                     }
 
-                    if (gameObject.name == "EnemyS2")
-                    {
-                        Debug.Log(transform.localEulerAngles.x + " > " + startRotation.x);
-                    }
+                    
                 }
                 break;
         }

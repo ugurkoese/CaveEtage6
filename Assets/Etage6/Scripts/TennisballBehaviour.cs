@@ -1,11 +1,31 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class TennisballBehaviour : MonoBehaviour
 {
     public AudioSource audioSource;
-   // private AudioSource audioSource;
+
+    private bool disabled = false;
+    public bool Disabled
+    {
+        get
+        {
+            return disabled;
+        }
+
+        set
+        {
+            disabled = value;
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Disabled = true;
+    }
+
+    // private AudioSource audioSource;
     public void Start()
     {
         SwitchLight();

@@ -145,6 +145,7 @@ public class ShootController : MonoBehaviour
         if (ballQueue.Count >= maxBalls)
         {
             GameObject ball = ballQueue.Dequeue();
+            ball.GetComponent<TennisballBehaviour>().Disabled = false;
             ball.GetComponent<TennisballBehaviour>().MakeSound();
             ball.transform.SetPositionAndRotation(GetPlayerBallSpawnPosition(joy), transform.rotation);
             ball.GetComponent<Rigidbody>().AddForce(GetForce(joy));
@@ -157,6 +158,7 @@ public class ShootController : MonoBehaviour
             go.GetComponent<Rigidbody>().AddForce(GetForce(joy));
             ballQueue.Enqueue(go);
         }
+
     }
 
     private Vector3 GetPlayerBallSpawnPosition(Joycon joy)
